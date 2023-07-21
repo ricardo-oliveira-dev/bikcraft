@@ -1,7 +1,6 @@
 .introducao-bg {
-  background: #000000;
-  color: #fff;
-  box-shadow: inset 0 -120px #ffffff;
+  background: var(--cor-12);
+  box-shadow: inset 0 -120px var(--cor-0);
 }
 
 .introducao {
@@ -27,41 +26,18 @@
 }
 
 .introducao h1 {
-  font-size: 4rem;
-  line-height: 1.125;
   margin-bottom: 32px;
-  font-family: 'Poppins';
-  font-weight: 600;
-}
-
-.introducao h1 span {
-  color: #ffbb00;
 }
 
 .introducao p {
-  font-size: 1.5rem;
-  line-height: 1.33;
   margin-bottom: 20px;
-  color: #b3b3b3;
-  font-family: 'Roboto';
-  font-weight: 400;
-}
-
-@media (max-width: 1200px) {
-  .introducao h1 {
-    font-size: 3rem;
-  }
-
-  .introducao p {
-    font-size: 1.125rem;
-  }
 }
 
 @media (max-width: 800px) {
   .introducao-bg {
-    background: #111111;
+    background: var(--cor-11);
     padding-top: 40px;
-    box-shadow: inset 0 -60px #ffffff;
+    box-shadow: inset 0 -60px var(--cor-0);
   }
 
   .introducao {
@@ -74,7 +50,6 @@
   }
 
   .introducao h1 {
-    font-size: 2rem;
     margin-bottom: 16px;
   }
 
