@@ -4,14 +4,9 @@
 }
 
 .introducao {
-  max-width: 1200px;
-  margin: 0 auto;
-  box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .introducao-conteudo {
@@ -22,7 +17,6 @@
 .introducao img {
   height: 100%;
   object-fit: cover;
-  border-radius: 4px;
 }
 
 .introducao h1 {
