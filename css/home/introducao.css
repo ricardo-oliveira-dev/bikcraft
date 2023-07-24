@@ -14,9 +14,11 @@
   padding-bottom: 240px;
 }
 
-.introducao img {
+.tecnologia-imagem img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: left;
 }
 
 .introducao h1 {
