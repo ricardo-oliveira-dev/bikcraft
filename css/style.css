@@ -6,18 +6,15 @@
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
-
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
 /* Home */
 @import "./home/introducao.css";
 
 /* Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
 
-/* Tecnologia */
-@import "./home/tecnologia.css";
+/* Seguros */
 
-/* Parceiros */
-@import "./home/parceiros.css";
-
-/* Depoimento */
-@import "./home/depoimento.css";
+@import "./seguros/seguros.css";
